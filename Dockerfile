@@ -17,6 +17,6 @@ RUN apt-get update && \
 
 EXPOSE 17500
 
-VOLUME ["/root/Dropbox"]
+# VOLUME ["/root/Dropbox"]
 
 CMD /.dropbox-dist/dropboxd
